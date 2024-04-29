@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
 }
 .righ,
 .secondary {
@@ -54,10 +54,11 @@ button {
     padding: 5px 15px 5px 15px;
     border-radius: 15px;
     margin-top: 15px;
+    border-color: white;
 }
 .img {
-    height: 200px;
-    width: 400px;
+    height: 211px;
+    width: 383px;
 }
 h2 {
     display: flex;
@@ -74,12 +75,15 @@ h2 {
     display: flex;
     text-align: center;
     justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
 }
 .text {
     /* display: flex; */
-    height: 150px;
-    width: 150px;
+    height: 188px;
+    width: 188px;
     border: lightblue;
+    border-radius: 18px;
 }
 .txt {
     max-width: 200px ;
@@ -92,4 +96,57 @@ h2 {
     font-weight: bold;
     color: #1F2937;
     margin: 20px;
+}
+.quote {
+    background-color: #E5E7EB;
+    font-weight: italic;;
+    display: flex;
+    padding: 5em;
+    margin-top: 50px;
+}
+.testimonial {
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 36px;
+    flex-wrap: wrap;
+    flex-basis: 1 1 1;
+    /* width: 900px; */
+}
+.author {
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+.action {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin:200px;
+    padding: 20px;
+    gap: 100px;
+    flex: 1;
+    
+}
+.sign {
+    justify-content: flex-end;
+}
+.action-time {
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
