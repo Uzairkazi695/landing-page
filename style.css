@@ -55,7 +55,41 @@ button {
     border-radius: 15px;
     margin-top: 15px;
 }
-img {
+.img {
     height: 200px;
     width: 400px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+.info {
+    flex: 1 1 1;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+.some {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.text {
+    /* display: flex; */
+    height: 150px;
+    width: 150px;
+    border: lightblue;
+}
+.txt {
+    max-width: 200px ;
+}
+/* .image {
+    display: flex;
+} */
+.information {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 20px;
 }
